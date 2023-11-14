@@ -59,19 +59,31 @@ export default function MobileMenu() {
         className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
         style={mobileNavOpen ? { maxHeight: mobileNav.current?.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: 0.8 }}
       >
-        <ul className="bg-gray-800 px-4 py-2">
+        <ul className="bg-cyan-100 px-4 py-2">
           <li>
-            <Link href="/signin" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+            <Link href="/signin" className="flex font-medium w-full hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               Dama
             </Link>
           </li>
           <li>
             <Link
               href="/signup"
-              className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out" onClick={() => setMobileNavOpen(false)}
+              className="font-medium w-full inline-flex items-center justify-center hover:bg-purple-700 transition duration-150 ease-in-out" onClick={() => setMobileNavOpen(false)}
             >
               Caballero
             </Link>
+          </li>
+          <li>
+            <a href="https://api.whatsapp.com/send?phone=527681040289" target="_blank" rel="noopener noreferrer"
+               title="WhatsApp" className="font-medium w-full inline-flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+                   strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-8 h-8"
+                   viewBox="0 0 24 24">
+                <path stroke="none" d="M0 0h24v24H0z"></path>
+                <path d="M3 21l1.65-3.8a9 9 0 113.4 2.9L3 21"></path>
+                <path d="M9 10a.5.5 0 001 0V9a.5.5 0 00-1 0v1a5 5 0 005 5h1a.5.5 0 000-1h-1a.5.5 0 000 1"></path>
+              </svg>
+            </a>
           </li>
         </ul>
       </nav>

@@ -21,7 +21,7 @@ const architects_daughter = Architects_Daughter({
 
 export const metadata: Metadata = {
   title: 'Lila zapateria',
-  description: 'Tienda lila Naranajos Flexi',
+  description: 'Zapateria lila Naranjos Flexi',
 }
 
 export default function RootLayout({
