@@ -39,7 +39,7 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <a href="https://api.whatsapp.com/send?phone=527681040289" target="_blank" rel="noopener noreferrer"
+                <a href="https://api.whatsapp.com/send?phone=527681040289&text=Hola%2C%20estoy%20interesado%20en%20un%20par%20de%20zapatos" target="_blank" rel="noopener noreferrer"
                    title="WhatsApp">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
                        strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-8 h-8"
