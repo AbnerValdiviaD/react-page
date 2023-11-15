@@ -15,8 +15,8 @@ export default function Header() {
               <Image
                   src={lilajpg}
                   alt="Logo Lila"
-                  height={105}
-                  width={120}
+                  height={80}
+                  width={80}
               />
             </Link>
           </div>
@@ -40,7 +40,7 @@ export default function Header() {
               </li>
               <li>
                 <a href="https://api.whatsapp.com/send?phone=527681040289&text=Hola%2C%20estoy%20interesado%20en%20un%20par%20de%20zapatos" target="_blank" rel="noopener noreferrer"
-                   title="WhatsApp">
+                   title="WhatsApp" className="px-4 py-3">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
                        strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-8 h-8"
                        viewBox="0 0 24 24">
