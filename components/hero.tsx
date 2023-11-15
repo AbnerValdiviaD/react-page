@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section>
       <div className="bg-[url(https://res.cloudinary.com/dcg02xtji/image/upload/v1700019680/Lila/fondo-iniciosvg.svg)]
-      bg-cover bg-no-repeat bg-center h-screen bg-gradient-to-r from-primary-dark/60 to-primary-dark/70">
+      bg-cover bg-no-repeat bg-center h-screen">
         <div
             className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed bg-white/[.20]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 relative justify-center">
@@ -26,8 +26,8 @@ export default function Hero() {
           <div className="relative pt-60 pb-10 md:pt-80 md:pb-16">
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-              <h1 className="h1 mb-4 " data-aos="fade-up">Zapatería Lila</h1>
-              <p className="text-xl text-slate-200 mb-8" data-aos="fade-up" data-aos-delay="200">Camina con mucho estilo y elegancia. Ármate de tus favoritos y siente la magia de usar unos FLEXI.</p>
+              <h1 className="h1 mb-4 text-amber-300" data-aos="fade-up">Zapatería Lila</h1>
+              <p className="text-xl bg-black/[.4] text-slate-200 mb-8" data-aos="fade-up" data-aos-delay="200">Camina con mucho estilo y elegancia. Ármate de tus favoritos y siente la magia de usar unos FLEXI.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay="400">
                   <a className="btn text-white bg-red-300 hover:bg-red-500 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Dama</a>
